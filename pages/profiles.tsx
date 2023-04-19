@@ -23,7 +23,7 @@ const Profiles = () => {
   return (
     <div className="flex items-center h-full justify-center">
         <div className="flex flex-col">
-            <h1 className="text-3xl md:text-6xl text-white text-center">Who is watching?</h1>
+            <h1 className="text-3xl md:text-6xl text-zinc-900 text-center">Who is watching?</h1>
             <div className="flex items-center justify-center gap-8 mt-10">
                 <div onClick={() => router.push('/')}>
                     <div className="group flex-row w-44 mx-auto">
@@ -44,10 +44,11 @@ const Profiles = () => {
                         </div>
                         <div className="
                             mt-4
-                            text-gray-400
+                            text-zinc-500
                             text-2xl
                             text-center
-                            group-hover:text-white
+                            group-hover:text-3xl
+                            group-hover:text-red-600
                         ">
                             {user?.name }
                         </div>
